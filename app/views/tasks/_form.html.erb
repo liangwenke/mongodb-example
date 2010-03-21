@@ -1,0 +1,24 @@
+<% form_for @task do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :project_id %><br />
+    <%= f.collection_select :project_id, Project.all, :id, :name %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :status %><br />
+    <%= f.select :status, Task.status_options %>
+  </p>
+  <p>
+    <%= f.label :priority %><br />
+    <%= f.select :priority, Task.priority_options %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description, :rows => 3 %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>

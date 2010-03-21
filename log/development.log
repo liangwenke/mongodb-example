@@ -1,0 +1,1163 @@
+/!\ FAILSAFE /!\  Sun Mar 21 15:06:18 +0800 2010
+  Status: 500 Internal Server Error
+  Unknown database 'todo_development'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Sun Mar 21 15:06:18 +0800 2010
+  Status: 500 Internal Server Error
+  Unknown database 'todo_development'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:09:53) [GET]
+
+NameError (uninitialized constant ActiveRecord):
+  app/models/project.rb:1
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (151.0ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:13:40) [GET]
+
+NameError (uninitialized class variable @@database_name in MongoMapper):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper.rb:61:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:172:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:187:in `collection'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:243:in `find_many'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:105:in `all'
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:14:58) [GET]
+
+NameError (uninitialized class variable @@database_name in MongoMapper):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper.rb:61:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:172:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:187:in `collection'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:243:in `find_many'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:105:in `all'
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (144.1ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:15:27) [GET]
+
+NameError (uninitialized class variable @@database_name in MongoMapper):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper.rb:61:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:172:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:187:in `collection'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:243:in `find_many'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:105:in `all'
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (141.6ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:16:12) [GET]
+
+NameError (uninitialized class variable @@database_name in MongoMapper):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper.rb:61:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:172:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:187:in `collection'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:243:in `find_many'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:105:in `all'
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (75.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:16:48) [GET]
+
+NameError (uninitialized class variable @@database_name in MongoMapper):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper.rb:61:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:172:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:187:in `collection'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:243:in `find_many'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:105:in `all'
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (142.5ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:17:12) [GET]
+
+NameError (uninitialized class variable @@database_name in MongoMapper):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper.rb:61:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:172:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:187:in `collection'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:243:in `find_many'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:105:in `all'
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (76.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:17:24) [GET]
+
+NameError (uninitialized class variable @@database_name in MongoMapper):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper.rb:61:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:172:in `database'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:187:in `collection'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:243:in `find_many'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:105:in `all'
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (143.8ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:19:22) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 727ms (View: 122 | 200 OK [http://0.0.0.0/]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-03-21 15:19:29) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (6.3ms)
+Completed in 33ms (View: 21 | 200 OK [http://0.0.0.0/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 15:19:39) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "project"=>{"name"=>"testing"}}
+
+SyntaxError (/home/wenke/rails/apps/todo/app/models/task.rb:6: syntax error, unexpected tCONSTANT, expecting kEND
+  key :project_id ObjectId, requred => true
+                          ^
+/home/wenke/rails/apps/todo/app/models/task.rb:6: syntax error, unexpected tASSOC, expecting '='
+  key :project_id ObjectId, requred => true
+                                      ^
+/home/wenke/rails/apps/todo/app/models/task.rb:8: syntax error, unexpected tCONSTANT, expecting kEND):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations/base.rb:31:in `klass'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations/base.rb:59:in `embeddable?'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations.rb:73:in `embedded_associations'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations.rb:72:in `select'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations.rb:72:in `embedded_associations'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/callbacks.rb:83:in `run_callbacks'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/callbacks.rb:53:in `valid?'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:301:in `save'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:47:in `save'
+  app/controllers/projects_controller.rb:16:in `create'
+
+Rendered rescues/_trace (95.8ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 15:20:12) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "project"=>{"name"=>"testing"}}
+
+SyntaxError (/home/wenke/rails/apps/todo/app/models/task.rb:6: syntax error, unexpected tCONSTANT, expecting kEND
+  key :project_id ObjectId, :requred => true
+                          ^
+/home/wenke/rails/apps/todo/app/models/task.rb:6: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+  key :project_id ObjectId, :requred => true
+                                       ^
+/home/wenke/rails/apps/todo/app/models/task.rb:8: syntax error, unexpected tCONSTANT, expecting kEND):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations/base.rb:31:in `klass'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations/base.rb:59:in `embeddable?'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations.rb:73:in `embedded_associations'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations.rb:72:in `select'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/associations.rb:72:in `embedded_associations'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/callbacks.rb:83:in `run_callbacks'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/callbacks.rb:53:in `valid?'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:301:in `save'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:47:in `save'
+  app/controllers/projects_controller.rb:16:in `create'
+
+Rendered rescues/_trace (190.1ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 15:20:36) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "project"=>{"name"=>"testing"}}
+Redirected to http://0.0.0.0:3000/projects/4ba5c8c4c133670e44000004
+Completed in 28ms | 302 Found [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 15:20:36) [GET]
+  Parameters: {"id"=>"4ba5c8c4c133670e44000004"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 36ms (View: 18 | 200 OK [http://0.0.0.0/projects/4ba5c8c4c133670e44000004]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:20:39) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 24ms (View: 11 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 15:20:53) [GET]
+  Parameters: {"id"=>"4ba5c8c4c133670e44000004"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 24ms (View: 10 | 200 OK [http://0.0.0.0/projects/4ba5c8c4c133670e44000004]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2010-03-21 15:20:56) [GET]
+  Parameters: {"id"=>"4ba5c8c4c133670e44000004"}
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered projects/_form (6.6ms)
+Completed in 32ms (View: 19 | 200 OK [http://0.0.0.0/projects/4ba5c8c4c133670e44000004/edit]
+
+
+Processing ProjectsController#update (for 127.0.0.1 at 2010-03-21 15:21:00) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "id"=>"4ba5c8c4c133670e44000004", "project"=>{"name"=>"test"}}
+Redirected to http://0.0.0.0:3000/projects/4ba5c8c4c133670e44000004
+Completed in 25ms | 302 Found [http://0.0.0.0/projects/4ba5c8c4c133670e44000004]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 15:21:00) [GET]
+  Parameters: {"id"=>"4ba5c8c4c133670e44000004"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 27ms (View: 11 | 200 OK [http://0.0.0.0/projects/4ba5c8c4c133670e44000004]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 15:21:13) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 26ms (View: 12 | 200 OK [http://0.0.0.0/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 15:21:16) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (324.5ms)
+Completed in 351ms (View: 338 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:22:33) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 31ms (View: 10 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-03-21 15:22:35) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (5.0ms)
+Completed in 19ms (View: 8 | 200 OK [http://0.0.0.0/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 15:22:37) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "project"=>{"name"=>""}}
+Redirected to http://0.0.0.0:3000/projects/4ba5c93dc133670e44000007
+Completed in 23ms | 302 Found [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 15:22:37) [GET]
+  Parameters: {"id"=>"4ba5c93dc133670e44000007"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 29ms (View: 13 | 200 OK [http://0.0.0.0/projects/4ba5c93dc133670e44000007]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 15:23:01) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "project"=>{"name"=>""}}
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (8.8ms)
+Completed in 40ms (View: 11 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:23:21) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 34ms (View: 20 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2010-03-21 15:23:24) [GET]
+  Parameters: {"id"=>"4ba5c93dc133670e44000007"}
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered projects/_form (6.6ms)
+Completed in 25ms (View: 10 | 200 OK [http://0.0.0.0/projects/4ba5c93dc133670e44000007/edit]
+
+
+Processing ProjectsController#update (for 127.0.0.1 at 2010-03-21 15:23:26) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "id"=>"4ba5c93dc133670e44000007", "project"=>{"name"=>""}}
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered projects/_form (10.4ms)
+Completed in 41ms (View: 15 | 200 OK [http://0.0.0.0/projects/4ba5c93dc133670e44000007]
+
+
+Processing ProjectsController#update (for 127.0.0.1 at 2010-03-21 15:23:39) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "id"=>"4ba5c93dc133670e44000007", "project"=>{"name"=>"testing"}}
+Redirected to http://0.0.0.0:3000/projects/4ba5c93dc133670e44000007
+Completed in 28ms | 302 Found [http://0.0.0.0/projects/4ba5c93dc133670e44000007]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 15:23:39) [GET]
+  Parameters: {"id"=>"4ba5c93dc133670e44000007"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 25ms (View: 11 | 200 OK [http://0.0.0.0/projects/4ba5c93dc133670e44000007]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 15:23:42) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 32ms (View: 19 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 15:23:47) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 18ms (View: 3 | 200 OK [http://0.0.0.0/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 15:23:49) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (17.3ms)
+Completed in 33ms (View: 20 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-03-21 15:23:52) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "task"=>{"name"=>"", "project_id"=>"", "due_at(1i)"=>"2010", "due_at(2i)"=>"3", "status"=>"", "due_at(3i)"=>"21"}}
+
+SyntaxError ((eval):1:in `create_accessors_for': compile error
+(eval):1: syntax error, unexpected tINTEGER, expecting ')'
+              def due_at(1i)
+                          ^):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:75:in `create_accessors_for'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:22:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:14:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:267:in `ensure_key_exists'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:237:in `[]='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:183:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `each_pair'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:22:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:163:in `initialize'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:42:in `initialize'
+  app/controllers/tasks_controller.rb:15:in `new'
+  app/controllers/tasks_controller.rb:15:in `create'
+
+Rendered rescues/_trace (83.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 15:26:17) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (35.8ms)
+Completed in 55ms (View: 43 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 15:32:07) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (110.8ms)
+Completed in 131ms (View: 118 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-03-21 15:32:31) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "task"=>{"name"=>"", "project_id"=>"4ba5c8c4c133670e44000004", "due_at(1i)"=>"2010", "due_at(2i)"=>"3", "status"=>"0", "due_at(3i)"=>"21"}}
+
+SyntaxError ((eval):1:in `create_accessors_for': compile error
+(eval):1: syntax error, unexpected tINTEGER, expecting ')'
+              def due_at(1i)
+                          ^):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:75:in `create_accessors_for'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:22:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:14:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:267:in `ensure_key_exists'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:237:in `[]='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:183:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `each_pair'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:22:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:163:in `initialize'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:42:in `initialize'
+  app/controllers/tasks_controller.rb:15:in `new'
+  app/controllers/tasks_controller.rb:15:in `create'
+
+Rendered rescues/_trace (90.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-03-21 15:33:15) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "task"=>{"name"=>"", "project_id"=>"4ba5c8c4c133670e44000004", "due_at(1i)"=>"2010", "due_at(2i)"=>"3", "status"=>"0", "due_at(3i)"=>"21"}}
+
+SyntaxError ((eval):1:in `create_accessors_for': compile error
+(eval):1: syntax error, unexpected tINTEGER, expecting ')'
+              def due_at(1i)
+                          ^):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:75:in `create_accessors_for'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:22:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:14:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:267:in `ensure_key_exists'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:237:in `[]='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:183:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `each_pair'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:22:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:163:in `initialize'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:42:in `initialize'
+  app/controllers/tasks_controller.rb:15:in `new'
+  app/controllers/tasks_controller.rb:15:in `create'
+
+Rendered rescues/_trace (81.7ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 17:27:37) [GET]
+
+SyntaxError (/home/wenke/rails/apps/todo/app/models/task.rb:15: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+  belongs_to :project
+              ^):
+  app/controllers/tasks_controller.rb:3:in `index'
+
+Rendered rescues/_trace (173.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 17:28:11) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 17ms (View: 3 | 200 OK [http://0.0.0.0/tasks]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 17:28:19) [GET]
+
+NameError (undefined local variable or method `timestamps' for Project:Class):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/support/find.rb:72:in `method_missing'
+  app/models/project.rb:7
+  app/controllers/projects_controller.rb:3:in `index'
+
+Rendered rescues/_trace (83.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 17:28:31) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 43ms (View: 22 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2010-03-21 17:28:35) [GET]
+  Parameters: {"id"=>"4ba5c8c4c133670e44000004"}
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered projects/_form (6.9ms)
+Completed in 33ms (View: 15 | 200 OK [http://0.0.0.0/projects/4ba5c8c4c133670e44000004/edit]
+
+
+Processing ProjectsController#update (for 127.0.0.1 at 2010-03-21 17:28:37) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "id"=>"4ba5c8c4c133670e44000004", "project"=>{"name"=>"test"}}
+Redirected to http://0.0.0.0:3000/projects/4ba5c8c4c133670e44000004
+Completed in 30ms | 302 Found [http://0.0.0.0/projects/4ba5c8c4c133670e44000004]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:28:37) [GET]
+  Parameters: {"id"=>"4ba5c8c4c133670e44000004"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 27ms (View: 11 | 200 OK [http://0.0.0.0/projects/4ba5c8c4c133670e44000004]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 17:29:33) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 36ms (View: 21 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-03-21 17:29:34) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (4.9ms)
+Completed in 45ms (View: 7 | 200 OK [http://0.0.0.0/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 17:29:40) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "project"=>{"name"=>"nice"}}
+Redirected to http://0.0.0.0:3000/projects/4ba5e704c133670e44000010
+Completed in 32ms | 302 Found [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:29:40) [GET]
+  Parameters: {"id"=>"4ba5e704c133670e44000010"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 25ms (View: 10 | 200 OK [http://0.0.0.0/projects/4ba5e704c133670e44000010]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 17:32:37) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 45ms (View: 30 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 17:32:42) [GET]
+
+NoMethodError (undefined method `timestmaps!' for Task:Class):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/support/find.rb:72:in `method_missing'
+  app/models/task.rb:11
+  app/controllers/tasks_controller.rb:3:in `index'
+
+Rendered rescues/_trace (165.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 17:34:29) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 25ms (View: 3 | 200 OK [http://0.0.0.0/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 17:34:32) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (99.9ms)
+Completed in 118ms (View: 105 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 17:44:36) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+
+ActionView::TemplateError (/home/wenke/rails/apps/todo/app/models/project.rb:8: syntax error, unexpected ':', expecting kEND
+  key :public: Boolean, :default => true
+              ^
+/home/wenke/rails/apps/todo/app/models/project.rb:8: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+  key :public: Boolean, :default => true
+                                   ^) on line #5 of app/views/tasks/_form.html.erb:
+2:   <%= f.error_messages %>
+3:   <p>
+4:     <%= f.label :project_id %><br />
+5:     <%= f.collection_select :project_id, Project.all, :id, :name %>
+6:   </p>
+7:   <p>
+8:     <%= f.label :name %><br />
+
+    app/views/tasks/_form.html.erb:5
+    app/views/tasks/_form.html.erb:1
+    app/views/tasks/new.html.erb:3
+
+Rendered rescues/_trace (221.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 17:44:52) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (33.7ms)
+Completed in 51ms (View: 36 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 17:45:18) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+
+ActionView::TemplateError (undefined method `from_mongo' for Text:Module) on line #13 of app/views/tasks/_form.html.erb:
+10:   </p>
+11:   <p>
+12:     <%= f.label :description %><br />
+13:     <%= f.text_field :description %>
+14:   </p>
+15:   <p>
+16:     <%= f.label :due_at %><br />
+
+    /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:327:in `get'
+    /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:273:in `read_key'
+    (eval):2:in `description'
+    app/views/tasks/_form.html.erb:13
+    app/views/tasks/_form.html.erb:1
+    app/views/tasks/new.html.erb:3
+
+Rendered rescues/_trace (116.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 17:45:27) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (43.3ms)
+Completed in 65ms (View: 47 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 17:45:41) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (35.9ms)
+Completed in 58ms (View: 44 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 17:45:54) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (38.4ms)
+Completed in 87ms (View: 45 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-03-21 17:51:46) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (11.5ms)
+Completed in 35ms (View: 21 | 200 OK [http://0.0.0.0/projects/new]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-03-21 17:52:13) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (12.9ms)
+Completed in 34ms (View: 20 | 200 OK [http://0.0.0.0/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 17:52:37) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "project"=>{"name"=>"dkuai", "public"=>"1", "homepage"=>"http://www.dkuai.com", "description"=>"good"}}
+Redirected to http://0.0.0.0:3000/projects/4ba5ec65c133670e4400001a
+Completed in 108ms | 302 Found [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:52:37) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 29ms (View: 12 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:54:25) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 35ms (View: 17 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2010-03-21 17:54:33) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered projects/_form (12.2ms)
+Completed in 32ms (View: 16 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a/edit]
+
+
+Processing ProjectsController#update (for 127.0.0.1 at 2010-03-21 17:54:36) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"XTwiUwhOobigU2N8hYga/XKK6G/8zm+HKPRor1po30Y=", "id"=>"4ba5ec65c133670e4400001a", "project"=>{"name"=>"dkuai", "public"=>"1", "homepage"=>"http://www.dkuai.com", "description"=>"good"}}
+Redirected to http://0.0.0.0:3000/projects/4ba5ec65c133670e4400001a
+Completed in 30ms | 302 Found [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:54:36) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 26ms (View: 10 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:55:43) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 70ms (View: 19 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:55:53) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 36ms (View: 19 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:55:56) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 32ms (View: 13 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:56:51) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 85ms (View: 19 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 17:56:51) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 69ms (View: 12 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 18:15:49) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+
+Mongo::ConnectionFailure (Operation failed with the following exception: connection closed):
+  mongo (0.19.1) lib/./lib/mongo/connection.rb:710:in `receive_message_on_socket'
+  mongo (0.19.1) lib/./lib/mongo/connection.rb:615:in `receive_header'
+  mongo (0.19.1) lib/./lib/mongo/connection.rb:608:in `receive'
+  mongo (0.19.1) lib/./lib/mongo/connection.rb:399:in `receive_message'
+  mongo (0.19.1) lib/./lib/mongo/connection.rb:397:in `synchronize'
+  mongo (0.19.1) lib/./lib/mongo/connection.rb:397:in `receive_message'
+  mongo (0.19.1) lib/./lib/mongo/cursor.rb:339:in `send_initial_query'
+  mongo (0.19.1) lib/./lib/mongo/cursor.rb:316:in `refill_via_get_more'
+  mongo (0.19.1) lib/./lib/mongo/cursor.rb:304:in `num_remaining'
+  mongo (0.19.1) lib/./lib/mongo/cursor.rb:61:in `next_document'
+  mongo (0.19.1) lib/./lib/mongo/collection.rb:189:in `find_one'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:235:in `find_one'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/document.rb:60:in `find'
+  app/controllers/projects_controller.rb:7:in `show'
+
+Rendered rescues/_trace (84.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 18:17:26) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 44ms (View: 17 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 18:17:46) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 121ms (View: 20 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2010-03-21 18:18:04) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/edit
+Rendered projects/_form (11.3ms)
+Completed in 33ms (View: 16 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a/edit]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 18:19:07) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Rendered projects/_form (10.9ms)
+Completed in 72ms (View: 28 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 18:19:41) [GET]
+  Parameters: {"id"=>"4ba5ec65c133670e4400001a"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 34ms (View: 17 | 200 OK [http://0.0.0.0/projects/4ba5ec65c133670e4400001a]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 18:19:48) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 50ms (View: 34 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 18:41:42) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 114ms (View: 76 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-03-21 18:42:09) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (7.9ms)
+Completed in 23ms (View: 11 | 200 OK [http://0.0.0.0/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-03-21 18:42:13) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"eKOYNPiUJtm1183nCTQXSuTjcG2v/siTgGgQIYkAUeQ=", "project"=>{"name"=>"", "public"=>"1", "homepage"=>"", "description"=>""}}
+Rendering template within layouts/application
+Rendering projects/new
+Rendered projects/_form (51.5ms)
+Completed in 80ms (View: 55 | 200 OK [http://0.0.0.0/projects]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 18:42:23) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 18ms (View: 3 | 200 OK [http://0.0.0.0/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 18:42:25) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (35.4ms)
+Completed in 52ms (View: 38 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 18:42:46) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (54.5ms)
+Completed in 75ms (View: 62 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-03-21 18:42:51) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"eKOYNPiUJtm1183nCTQXSuTjcG2v/siTgGgQIYkAUeQ=", "task"=>{"due_at(5i)"=>"42", "name"=>"", "project_id"=>"4ba5c93dc133670e44000007", "priority"=>"0", "due_at(1i)"=>"2010", "due_at(2i)"=>"3", "description"=>"", "status"=>"0", "due_at(3i)"=>"21", "due_at(4i)"=>"10"}}
+
+SyntaxError ((eval):1:in `create_accessors_for': compile error
+(eval):1: syntax error, unexpected tINTEGER, expecting ')'
+              def due_at(5i)
+                          ^):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:75:in `create_accessors_for'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:22:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:14:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:267:in `ensure_key_exists'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:237:in `[]='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:183:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `each_pair'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:22:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:163:in `initialize'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:42:in `initialize'
+  app/controllers/tasks_controller.rb:15:in `new'
+  app/controllers/tasks_controller.rb:15:in `create'
+
+Rendered rescues/_trace (185.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 18:43:11) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (68.5ms)
+Completed in 86ms (View: 71 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-03-21 18:43:14) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"eKOYNPiUJtm1183nCTQXSuTjcG2v/siTgGgQIYkAUeQ=", "task"=>{"due_at(5i)"=>"43", "name"=>"", "project_id"=>"4ba5c93dc133670e44000007", "priority"=>"0", "due_at(1i)"=>"2010", "due_at(2i)"=>"3", "description"=>"", "status"=>"0", "due_at(3i)"=>"21", "due_at(4i)"=>"10"}}
+
+SyntaxError ((eval):1:in `create_accessors_for': compile error
+(eval):1: syntax error, unexpected tINTEGER, expecting ')'
+              def due_at(5i)
+                          ^):
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:75:in `create_accessors_for'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:22:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:14:in `key'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:267:in `ensure_key_exists'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:237:in `[]='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:183:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `each_pair'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:174:in `attributes='
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/protected.rb:22:in `assign'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/keys.rb:163:in `initialize'
+  /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:42:in `initialize'
+  app/controllers/tasks_controller.rb:15:in `new'
+  app/controllers/tasks_controller.rb:15:in `create'
+
+Rendered rescues/_trace (83.3ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 18:43:59) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (49.9ms)
+Completed in 72ms (View: 59 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 18:44:31) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (34.2ms)
+Completed in 141ms (View: 127 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-21 18:44:51) [GET]
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (27.1ms)
+Completed in 49ms (View: 35 | 200 OK [http://0.0.0.0/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-03-21 18:44:55) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"eKOYNPiUJtm1183nCTQXSuTjcG2v/siTgGgQIYkAUeQ=", "task"=>{"name"=>"", "project_id"=>"4ba5c93dc133670e44000007", "priority"=>"0", "description"=>"", "status"=>"0"}}
+Rendering template within layouts/application
+Rendering tasks/new
+Rendered tasks/_form (28.7ms)
+Completed in 50ms (View: 31 | 200 OK [http://0.0.0.0/tasks]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-03-21 18:45:06) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"eKOYNPiUJtm1183nCTQXSuTjcG2v/siTgGgQIYkAUeQ=", "task"=>{"name"=>"ha", "project_id"=>"4ba5c93dc133670e44000007", "priority"=>"0", "description"=>"", "status"=>"0"}}
+Redirected to http://0.0.0.0:3000/tasks/4ba5f8b2c133670e44000026
+Completed in 20ms | 302 Found [http://0.0.0.0/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-21 18:45:06) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/show
+
+ActionView::TemplateError (undefined method `due_at' for #<Task:0xb69fd40c>) on line #13 of app/views/tasks/show.html.erb:
+10: </p>
+11: <p>
+12:   <strong>Due At:</strong>
+13:   <%=h @task.due_at %>
+14: </p>
+15: <p>
+16:   <strong>Status:</strong>
+
+    /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:25:in `method_missing'
+    app/views/tasks/show.html.erb:13
+
+Rendered rescues/_trace (89.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-21 18:46:44) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/show
+Completed in 81ms (View: 63 | 200 OK [http://0.0.0.0/tasks/4ba5f8b2c133670e44000026]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-21 18:47:04) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/show
+Completed in 44ms (View: 27 | 200 OK [http://0.0.0.0/tasks/4ba5f8b2c133670e44000026]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2010-03-21 18:47:11) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/edit
+Rendered tasks/_form (32.5ms)
+Completed in 82ms (View: 66 | 200 OK [http://0.0.0.0/tasks/4ba5f8b2c133670e44000026/edit]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-21 18:47:17) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/show
+Completed in 36ms (View: 21 | 200 OK [http://0.0.0.0/tasks/4ba5f8b2c133670e44000026]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2010-03-21 18:47:20) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/edit
+Rendered tasks/_form (25.4ms)
+Completed in 45ms (View: 29 | 200 OK [http://0.0.0.0/tasks/4ba5f8b2c133670e44000026/edit]
+
+
+Processing TasksController#update (for 127.0.0.1 at 2010-03-21 18:47:22) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"eKOYNPiUJtm1183nCTQXSuTjcG2v/siTgGgQIYkAUeQ=", "id"=>"4ba5f8b2c133670e44000026", "task"=>{"name"=>"ha", "project_id"=>"4ba5c93dc133670e44000007", "priority"=>"0", "description"=>"", "status"=>"0"}}
+Redirected to http://0.0.0.0:3000/tasks/4ba5f8b2c133670e44000026
+Completed in 21ms | 302 Found [http://0.0.0.0/tasks/4ba5f8b2c133670e44000026]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-21 18:47:22) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/show
+Completed in 45ms (View: 24 | 200 OK [http://0.0.0.0/tasks/4ba5f8b2c133670e44000026]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-03-21 20:39:34) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 93ms (View: 67 | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-03-21 20:39:50) [GET]
+  Parameters: {"id"=>"4ba5c93dc133670e44000007"}
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 27ms (View: 11 | 200 OK [http://localhost/projects/4ba5c93dc133670e44000007]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 20:40:02) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+
+ActionView::TemplateError (undefined method `due_at' for #<Task:0xb5fdb30c>) on line #14 of app/views/tasks/index.html.erb:
+11:     <tr>
+12:       <td><%=h task.name %></td>
+13:       <td><%=h task.project_id %></td>
+14:       <td><%=h task.due_at %></td>
+15:       <td><%=h task.status %></td>
+16:       <td><%= link_to "Show", task %></td>
+17:       <td><%= link_to "Edit", edit_task_path(task) %></td>
+
+    /home/wenke/.gem/ruby/1.8/gems/mongo_mapper-0.7.1/lib/mongo_mapper/plugins/dirty.rb:25:in `method_missing'
+    app/views/tasks/index.html.erb:14
+    app/views/tasks/index.html.erb:10:in `each'
+    app/views/tasks/index.html.erb:10
+
+Rendered rescues/_trace (120.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 20:41:22) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 154ms (View: 137 | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-21 20:41:38) [GET]
+Rendering template within layouts/application
+Rendering tasks/index
+Completed in 51ms (View: 32 | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-21 20:41:42) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/show
+Completed in 38ms (View: 21 | 200 OK [http://localhost/tasks/4ba5f8b2c133670e44000026]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2010-03-21 20:41:45) [GET]
+  Parameters: {"id"=>"4ba5f8b2c133670e44000026"}
+Rendering template within layouts/application
+Rendering tasks/edit
+Rendered tasks/_form (27.0ms)
+Completed in 49ms (View: 31 | 200 OK [http://localhost/tasks/4ba5f8b2c133670e44000026/edit]

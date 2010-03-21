@@ -1,0 +1,28 @@
+<% title "Task" %>
+
+<p>
+  <strong>Project:</strong>
+  <%=h @task.project.name %>
+</p>
+<p>
+  <strong>Name:</strong>
+  <%=h @task.name %>
+</p>
+<p>
+  <strong>Status:</strong>
+  <%=h @task.dis_status %>
+</p>
+<p>
+  <strong>Priority:</strong>
+  <%=h @task.dis_priority %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%=h @task.description %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_task_path(@task) %> |
+  <%= link_to "Destroy", @task, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", tasks_path %>
+</p>
