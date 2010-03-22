@@ -1,0 +1,4 @@
+log/*
+tmp/*/*
+config/database.yaml
+db/schema.rb
